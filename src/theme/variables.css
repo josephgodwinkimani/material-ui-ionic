@@ -1,0 +1,26 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+
+:root {
+    --ion-text-color: white;
+    /* Change this to your desired color */
+    --ion-tab-bar-background: #121212;
+    /* Change this to your desired color */
+    --ion-tab-bar-border-color: #3880ff;
+    /* Optional: Change border color */
+    --ion-tab-bar-color: white;
+    /* Optional: Change text color */
+    --ion-tab-bar-color-selected: #ff1744;
+    /* Optional: Change selected tab text color */
+}
+
+ion-page,
+ion-content {
+    --ion-background-color: #121212;
+    /* Change this to your desired color */
+}
+
+ion-toolbar {
+    --background: #121212;
+    --border-color: white;
+}
